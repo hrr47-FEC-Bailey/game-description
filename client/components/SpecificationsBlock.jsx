@@ -9,10 +9,10 @@ const SpecificationsBlock = ({ specs }) => (
     <div className={styles.game_system_reqs_contents_wrapper}>
       <div className={styles.game_system_reqs_data}>
         <div className={styles.sys_req_left_col}>
-          <SpecificationsList specs={specs.minimum} />
+          <SpecificationsList title={'MINIMUM'} specs={specs.minimum} />
         </div>
         <div className={styles.sys_req_right_col}>
-          <SpecificationsList specs={specs.recommended} />
+          <SpecificationsList title={'RECOMMENDED'} specs={specs.recommended} />
         </div>
       </div>
     </div>
